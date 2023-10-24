@@ -16,3 +16,7 @@ Here comes the AWS Macie which could stand as a constant monitoring service to t
 A full technical description of how this service was implemented can be found in my [blog](https://medium.com/@Los-merengue/securing-data-in-aws-using-marcie-a2e540608dae)
 
 Thank you!
+
+\\ [Features](#features)
+\\ [Encryption](docs/encryption.md)
+
