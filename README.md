@@ -17,6 +17,6 @@ A full technical description of how this service was implemented can be found in
 
 Thank you!
 
-\\ [Features](#features)
-\\ [Encryption](docs/encryption.md)
+[//]:      [Features](#features)
+[//]:      [Encryption](docs/encryption.md)
 
