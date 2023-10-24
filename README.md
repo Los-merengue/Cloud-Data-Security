@@ -1,60 +1,18 @@
 # Cloud-Data-Security
 # Secure and Inspect Data in Amazon S3 Bucket
 
-## Introduction
+Welcome to the Secure and Inspect Data in Amazon S3 Bucket repository. This repository is used to store dummy database file that are used for a cybersecurity project using Amazon Marcie. 
 
-Welcome to the Secure and Inspect Data in Amazon S3 Bucket repository. This repository is dedicated to sharing resources, tools, and best practices for securing and inspecting data stored in Amazon Simple Storage Service (Amazon S3) buckets. Protecting data in the cloud is crucial, and this repository aims to provide valuable insights and practical guidance for achieving data security in your S3 buckets.
+All you have to do to proceed is to download these csv files. The files created with [Mockaroo](https://www.mockaroo.com/) looks like exactly what you may get if you are dealing with data from a hospital database, thereby justifying what you may have in an HIPAA set up.
 
-## Table of Contents
+We will be using [Amazon Macie](https://aws.amazon.com/macie/) to discover these data which will be stored in an S3 Bucket and also protect them.
 
-- [Features](#features)
-- [Getting Started](#getting-started)
-- [Securing Data](#securing-data)
-- [Inspecting Data](#inspecting-data)
-- [Contributing](#contributing)
-- [License](#license)
+We will also extend the capabilities of this by using some regex expression to dig in more into the data that is being stored by the S3 bucket.
 
-## Features
+The impact of this is that we in the field of cybersecurity needs to be mindful about the data, why? because data is the gold we tend to protect in this domain.
 
-- Comprehensive collection of resources on securing and inspecting data in Amazon S3.
-- Guides and best practices for setting up access control, encryption, and auditing.
-- Code samples and scripts for automating security tasks.
-- Tools and scripts for inspecting data within S3 buckets.
-- Insights into compliance standards and data security regulations.
+Here comes the AWS Macie which could stand as a constant monitoring service to this data. Finding pattern matching, performing scans and finally generating the findings which will be sent for further remediation.
 
-## Getting Started
+A full technical description of how this service was implemented can be found in my [blog](https://medium.com/@Los-merengue/securing-data-in-aws-using-marcie-a2e540608dae)
 
-If you're new to securing and inspecting data in Amazon S3, start with these resources:
-
-- [Getting Started with Amazon S3](docs/getting-started.md) - An introduction to Amazon S3 and its data security features.
-- [Configuring Bucket Policies](docs/bucket-policies.md) - Guidelines for setting up access controls and policies for your S3 buckets.
-- [Inspecting Data](docs/inspecting-data.md) - Learn how to inspect data in your S3 buckets using various tools.
-
-## Securing Data
-
-Ensure the security of your data in Amazon S3 by following best practices:
-
-- [Encryption](docs/encryption.md) - Implement encryption mechanisms to protect data at rest and in transit.
-- [Access Control](docs/access-control.md) - Set up IAM policies, bucket policies, and ACLs to control who can access your data.
-- [Auditing and Monitoring](docs/auditing.md) - Enable auditing and monitoring to track access and changes to your data.
-
-## Inspecting Data
-
-Effectively inspect and analyze data within your S3 buckets:
-
-- [Data Inspection Tools](docs/inspection-tools.md) - Discover and utilize tools for data inspection and analysis.
-- [Data Profiling](docs/data-profiling.md) - Learn how to profile data for insights and quality assurance.
-
-## Contributing
-
-We welcome contributions from the community. Whether it's adding new resources, sharing insights, or suggesting improvements, your input is valuable. Please review our [contribution guidelines](CONTRIBUTING.md) for more information.
-
-## License
-
-This repository is licensed under the [MIT License](LICENSE).
-
----
-
-**Note:** This repository provides information and resources for enhancing the security and inspection of data in Amazon S3 buckets. It is not a substitute for professional advice and does not guarantee data security. Always consult with AWS experts and follow best practices tailored to your specific use case.
-
-For questions or further assistance, please contact [maintainer@email.com].
+Thank you!
